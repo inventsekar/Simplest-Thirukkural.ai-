@@ -1,7 +1,7 @@
 # rows and columns design - 14th dec 2024
 # inventsekar
 
-kuralNo,kural,athigaram,athigaramNo,paal,
+kuralNo,kural,athigaram,athigaramNo,paal,CharCount,StgStr,EndStr,tokens,rareToken,
 
 
 1. அறத்துப்பால்
