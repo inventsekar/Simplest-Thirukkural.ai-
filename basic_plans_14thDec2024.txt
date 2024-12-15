@@ -1,4 +1,4 @@
-# basic plans 14th dec 2024
+# basic plans 14th Dec 2024 Sat
 # inventsekar
 
 1) On a simple excel file(or csv better), add the source, in tamil language.
@@ -7,7 +7,10 @@
 4) Do some statistical data analysis and update the rows and columns (already done this using Splunk(check Splunking thirukkural repo)
 5) Plan the requirements for the AI program
 
-------------------------------------------------------
+# 15th Dec 2024 Sunday
+6) Looks like a basic MySQL is the best alternative instead of the CSV file - more detailed analysis needed
+
+---------------------------------------------------------------------------------------------------------------
 # row design ideas 
 # 15th Dec 2024
 # inventsekar
@@ -20,7 +23,7 @@ kuralNo,kural,athigaram,athigaramNo,paal,CharCount,StgStr,EndStr,tokens,rareToke
 
 
 
---------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 https://en.wikisource.org/wiki/The_Kural_or_the_Maxims_of_Tiruvalluvar
 
 Part 1: Righteousness
