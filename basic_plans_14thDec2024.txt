@@ -7,9 +7,20 @@
 4) Do some statistical data analysis and update the rows and columns (already done this using Splunk(check Splunking thirukkural repo)
 5) Plan the requirements for the AI program
 
+------------------------------------------------------
+# row design ideas 
+# 15th Dec 2024
+# inventsekar
+
+kuralNo,kural,athigaram,athigaramNo,paal,CharCount,StgStr,EndStr,tokens,rareToken,
 
 
 
+
+
+
+
+--------------------------------------------------------
 https://en.wikisource.org/wiki/The_Kural_or_the_Maxims_of_Tiruvalluvar
 
 Part 1: Righteousness
