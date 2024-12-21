@@ -1,3 +1,30 @@
+# 21st Dec 2024 Saturday
+# inventsekar
+
+
+1) vijayanandrp's work was simple and straightforward. 
+he created this json file with 1330 kurals and their eng translation. 
+https://raw.githubusercontent.com/vijayanandrp/Thirukkural-Tamil-Dataset/refs/heads/master/data/all_kural.json
+
+2) the json file can be used and updated with some more fields 
+--- rare strings (for example, only one seed was used in the whole thirukkural, three flowers are used i remember)
+--- char count can be calculated and updated to the json (for the questions about shortest and longest kurals)
+--- starting str and ending str of kurals are interesting areas to focus on. 
+
+3) tokenization -  each kural got 7 tokens(strings). 
+--- the json file should be updated with a list or tuple of tokens. 
+--- then the most common and rare tokens can be identified 
+
+4) the tamil to eng translation of "selected words" is the critical task 
+--- this task can be performed easily after the tokenization task ( the most common and rare tokens)
+
+5) csv vs json - python prog performance should be taken into considerations
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
 # basic plans 14th Dec 2024 Sat
 # inventsekar
 
