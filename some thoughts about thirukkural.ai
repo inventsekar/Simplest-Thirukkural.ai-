@@ -1,0 +1,25 @@
+# 10/May/2026 Sunday inventsekar
+
+I did some searching on thirukkural.ai and kural's containing a tamil word searches are working fine, no issues. 
+but still the character count searches are not working as expected. 
+
+for example, what is the shortest kural please. 
+You:
+The shortest kural pls
+
+Thirukural AI
+குறள்களில் வார்த்தைகள் குறைவாக உள்ள குறள்: 974 - 'ஒருமை மகளிரே போலப் பெருமையும் தன்னைத்தான் கொண்டொழுகின் உண்டு.' (Existence of greatness depends on its own truthfulness).
+
+then i thought to find out how thirukkural.ai works.
+found this page:
+https://blog.arjun-g.com/how-i-built-thirukural-ai-using-openai-with-rag-7a37d0b1f79c
+
+this portion:
+Chunking the content was straightforward, as each kural is a separate, meaningful unit. I created a dataset of 1,330 rows, with each row formatted as follows:
+
+The {n}th kural is ‘{Kural in Tamil}’. It translates to ‘{English translated Kural}’. The meaning is ‘{Explanation of the Kural in English}’. It belongs to adhigaram (chapter) ‘{Kural’s Chapter}’.
+
+Maybe, this requires some re-designing. 
+for example:
+
+The {n}th kural is ‘{Kural in Tamil}’. The character count is '{N}'. It translates to ‘{English translated Kural}’. The meaning is ‘{Explanation of the Kural in English}’. It belongs to adhigaram (chapter) ‘{Kural’s Chapter}’.
